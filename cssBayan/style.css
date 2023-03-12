@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Inika', serif;
     font-family: 'Inter', sans-serif;
+    transition: max-height .9s ease;
 }
 
 body {
@@ -59,13 +60,11 @@ label {
 .content {
     max-height: 0;
     overflow: hidden;
-    transition: max-height .9s ease;
     width: 80%;
 }
 
 input[type="radio"]:checked+label+.content {
     max-height: 31.25em;
-    transition: max-height .9s ease;
 }
 
 
@@ -96,6 +95,10 @@ input[type="radio"]:checked+label .text {
 
 .content:active {
     background: rgba(119, 119, 116, 0.5);
+}
+
+label:active {
+    color: blue;
 }
 
 @media screen and (max-width: 820px) {
