@@ -106,6 +106,10 @@ label:active {
         font-size: 2em;
     }
 
+    label {
+        font-size: 1.2em;
+    }
+
     .accordion {
         width: 90%;
     }
@@ -116,10 +120,6 @@ label:active {
 }
 
 @media screen and (max-width: 620px) {
-    label {
-        font-size: 1.2em;
-    }
-
     img {
         width: 60%;
     }
